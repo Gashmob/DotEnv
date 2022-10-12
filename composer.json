@@ -1,0 +1,18 @@
+{
+    "name": "gashmob/dotenv",
+    "description": "A php library to parse .env files to environment variables available in $_ENV and $_SERVER",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Gashmob\\Dotenv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Traini",
+            "email": "kevin@ktraini.com"
+        }
+    ],
+    "require": {}
+}
