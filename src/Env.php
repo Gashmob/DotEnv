@@ -15,7 +15,7 @@ class Env
      * @return void
      * @throws FileNotFoundException
      */
-    public static function load($file = __DIR__ . '/.env')
+    public static function load($file)
     {
         if (!file_exists($file)) {
             throw new FileNotFoundException($file);
